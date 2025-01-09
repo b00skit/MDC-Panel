@@ -84,6 +84,9 @@
 		case '/paperwork-generators/interview-card':
 			$url = "/templates/generators/form-interview-card.php";
 			break;
+		case '/paperwork-generators/protech/assignment-form':
+			$url = "/templates/generators/protech/form-assignment.php";
+			break;
 		case '':
 		case '/':
 		case '/dashboard':

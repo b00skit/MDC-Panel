@@ -303,6 +303,25 @@ class PaperworkGenerators
 		return '<optgroup label="Reporting District">' . $group . '</optgroup>';
 	}
 
+	public function pSecurityUniformStyles()
+	{
+
+		$list = file(dirname(__FILE__,2).'/resources/securityUniformStyles.txt');
+		$listCount = 0;
+		$group = '';
+
+		foreach ($list as $item) {
+
+			$statement = '<option value="' . $listCount . '">' . $item . '</option>';
+
+			$group .= $statement;
+
+			$listCount++;
+		}
+
+		return '<optgroup label="Security Uniforms">' . $group . '</optgroup>';
+	}
+
 	public function sStatusChooser()
 	{
 
@@ -348,6 +367,14 @@ class PaperworkGenerators
 		$reportingDistricts = file($_SERVER['DOCUMENT_ROOT'] . '/resources/sheriffsReportingDistricts.txt', FILE_IGNORE_NEW_LINES);
 
 		return $reportingDistricts[$input];
+	}
+
+	public function getSecurityUniformStyle($input)
+	{
+
+		$file = file($_SERVER['DOCUMENT_ROOT'] . '/resources/securityUniformStyles.txt', FILE_IGNORE_NEW_LINES);
+
+		return $file[$input];
 	}
 
 

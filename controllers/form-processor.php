@@ -1281,6 +1281,62 @@ COUNTY OF LOS SANTOS[/b]
 				<ul><li>' . $inputReason . '</li></ul>';
 	}
 
+	if ($generatorType == 'protech_assignment') {
+		    // Retrieve form data
+			$inputLocation = $_POST['inputLocation'] ?? 'N/A';
+			$inputDate = $_POST['inputDate'] ?? date('Y-m-d');
+			$inputTime = $_POST['inputTime'] ?? date('H:i');
+			$inputLength = $_POST['inputLength'] ?? 'N/A';
+			$inputNumberGuards = $_POST['inputNumberGuards'] ?? 'N/A';
+			$inputPay = $_POST['inputPay'] ?? 'N/A';
+			$inputUniformStyle = $_POST['inputUniformStyle'] ?? 'N/A';
+			$inputPointsEotM = $_POST['inputPointsEotM'] ?? 'N/A';
+			$inputClientNames = $_POST['inputClientNames'] ?? 'N/A';
+			$inputClientNumbers = $_POST['inputClientNumbers'] ?? 'N/A';
+			$inputAdditionalInformation = $_POST['inputAdditionalInformation'] ?? 'N/A';
+
+			$inputUniformStyle = $pg->getSecurityUniformStyle($inputUniformStyle);
+		
+
+		
+			$redirectPath = redirectPath(2);
+			$generatedReportType = 'Assignment Form';
+			$generatedThreadURL = 'https://protech.gta.world/forum/viewtopic.php?t=61';
+			$generatedThreadTitle = 'Assignment';
+			// Generate BBCode format
+			$generatedReport = "[divbox=#BF0000]
+
+
+[centre][img]https://i.imgur.com/kWcSahD.png[/img]
+
+[b][size=200][color=#000000]ASSIGNMENT[/color][/size][/b][/centre]
+[hr]
+[divbox=#FFFFFF]
+
+[b]Location:[/b] $inputLocation
+[b]Date:[/b] $inputDate
+[b]Time:[/b] $inputTime
+[b]Length:[/b] $inputLength
+[hr]
+[b]Number of Officers/Guards:[/b] $inputNumberGuards
+[b]Pay per Hour:[/b] $inputPay
+[b]Uniform Style:[/b] $inputUniformStyle
+[b]Points Toward [url=https://protech.gta.world/forum/viewtopic.php?t=61]Employee of the Month:[/url][/b] $inputPointsEotM
+[hr]
+[b]Client Name(s):[/b] $inputClientNames
+[b]Client Phone(s):[/b] $inputClientNumbers
+[hr]
+[b]Additional Information:[/b] $inputAdditionalInformation
+
+[/divbox]
+
+[hr]
+[right][color=#000000][i][b]ProTech Security Solutions
+Marathon Avenue, Del Perro, Los Santos[/b][/i][/color][/right]
+
+[/divbox]";
+	}
+
 	if ($generatorType == 'TrespassNotice') {
 
 		// Variables
@@ -1316,8 +1372,6 @@ COUNTY OF LOS SANTOS[/b]
 				<ul><li>' . $inputManagerName . '</li>
 				<li>PH #: ' . $inputPhone . '</li></ul>';
 	}
-
-
 
 
 	//LSDA Dismissal Petition
