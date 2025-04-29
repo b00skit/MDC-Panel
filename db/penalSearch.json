@@ -4562,9 +4562,309 @@
         },
 		"extra": "N/A"
 	},
-	"403F": {
-		"id": "403F",
-		"charge": "Felony Hit and Run",
+	"403": {
+		"id": "403",
+		"charge": "Failure to Produce Driver's License",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": false,
+			"3": false
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"maxtime": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 1000,
+			"2": 0,
+			"3": 0
+		},
+		"impound": {
+			"1": 0,
+			"2": 0,
+			"3": 0
+		},
+		"suspension": {
+			"1": 0,
+			"2": 0,
+			"3": 0
+		},
+        "bail": {
+            "auto": true,
+            "cost": 50000
+        },
+		"extra": "N/A"
+	},
+	"404": {
+		"id": "404",
+		"charge": "Failure to Produce Vehicle Registration",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": false,
+			"3": false
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"maxtime": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 1000,
+			"2": 0,
+			"3": 0
+		},
+		"impound": {
+			"1": 0,
+			"2": 0,
+			"3": 0
+		},
+		"suspension": {
+			"1": 0,
+			"2": 0,
+			"3": 0
+		},
+        "bail": {
+            "auto": true,
+            "cost": 50000
+        },
+		"extra": "N/A"
+	},
+	"405": {
+		"id": "405",
+		"charge": "Failure to Produce Proof of Insurance",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": false,
+			"3": false
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"maxtime": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 1000,
+			"2": 0,
+			"3": 0
+		},
+		"impound": {
+			"1": 0,
+			"2": 0,
+			"3": 0
+		},
+		"suspension": {
+			"1": 0,
+			"2": 0,
+			"3": 0
+		},
+        "bail": {
+            "auto": true,
+            "cost": 50000
+        },
+		"extra": "N/A"
+	},
+	"406": {
+		"id": "406",
+		"charge": "Unregistered Vehicle",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": false,
+			"3": false
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"maxtime": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 5000,
+			"2": 0,
+			"3": 0
+		},
+		"impound": {
+			"1": 1,
+			"2": 0,
+			"3": 0
+		},
+		"suspension": {
+			"1": 3,
+			"2": 0,
+			"3": 0
+		},
+        "bail": {
+            "auto": true,
+            "cost": 100000
+        },
+		"extra": "For driving or operating. If vehicle left standing: fine and impound only."
+	},
+	"407": {
+		"id": "407",
+		"charge": "No Insurance",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": false,
+			"3": false
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"maxtime": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 5000,
+			"2": 0,
+			"3": 0
+		},
+		"impound": {
+			"1": 1,
+			"2": 0,
+			"3": 0
+		},
+		"suspension": {
+			"1": 3,
+			"2": 0,
+			"3": 0
+		},
+        "bail": {
+            "auto": true,
+            "cost": 100000
+        },
+		"extra": "For driving or operating. If vehicle left standing: fine and impound only."
+	},
+	"408": {
+		"id": "408",
+		"charge": "Hit and Run",
+		"type": "M",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": false,
+			"3": false
+		},
+		"time": {
+			"days": 0,
+			"hours": 6,
+			"min": 0
+		},
+		"maxtime": {
+			"days": 1,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 0,
+			"2": 0,
+			"3": 0
+		},
+		"impound": {
+			"1": 0,
+			"2": 0,
+			"3": 0
+		},
+		"suspension": {
+			"1": 0,
+			"2": 0,
+			"3": 0
+		},
+        "bail": {
+            "auto": true,
+            "cost": 150000
+        },
+		"extra": "Misdemeanor version for property damage only. Use 408F for injuries/deaths."
+	},
+	"408F": {
+		"id": "408F",
+		"charge": "Hit and Run (Felony)",
 		"type": "F",
 		"class": {
 			"A": true,
@@ -4608,62 +4908,12 @@
 		},
         "bail": {
             "auto": true,
-            "cost": 200000
+            "cost": 350000
         },
-		"extra": "N/A"
+		"extra": "Felony version for accidents involving injury or death."
 	},
-	"403M": {
-		"id": "403M",
-		"charge": "Misdemeanor Hit and Run",
-		"type": "M",
-		"class": {
-			"A": false,
-			"B": false,
-			"C": true
-		},
-		"offence": {
-			"1": true,
-			"2": false,
-			"3": false
-		},
-		"time": {
-			"days": 0,
-			"hours": 6,
-			"min": 0
-		},
-		"maxtime": {
-			"days": 1,
-			"hours": 0,
-			"min": 0
-		},
-		"points": {
-			"A": 0,
-			"B": 0,
-			"C": 0
-		},
-		"fine": {
-			"1": 0,
-			"2": 0,
-			"3": 0
-		},
-		"impound": {
-			"1": 2,
-			"2": 2,
-			"3": 2
-		},
-		"suspension": {
-			"1": 0,
-			"2": 0,
-			"3": 0
-		},
-        "bail": {
-            "auto": true,
-            "cost": 400000
-        },
-		"extra": "N/A"
-	},
-	"404": {
-		"id": "404",
+	"409": {
+		"id": "409",
 		"charge": "Reckless Operation Of an Off-Road or Naval Vehicle",
 		"type": "M",
 		"class": {
@@ -4710,10 +4960,10 @@
             "auto": true,
             "cost": 80000
         },
-		"extra": "N/A"
+		"extra": "Sentencing Enhancements are allowed for this charge."
 	},
-	"405": {
-		"id": "405",
+	"410": {
+		"id": "410",
 		"charge": "Speeding",
 		"type": "I",
 		"class": {
@@ -4739,7 +4989,7 @@
 		"fine": {
 			"1": 2500,
 			"2": 5000,
-			"3": 7500
+			"3": 8000
 		},
 		"impound": {
 			"1": 0,
@@ -4751,10 +5001,59 @@
 			"2": 0,
 			"3": 3
 		},
-		"extra": "N/A"
+		"extra": "For speeds 1-29 MPH over limit"
 	},
-	"406": {
-		"id": "406",
+	"411": {
+		"id": "411",
+		"charge": "Excessive Speeding",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true,
+			"5": true
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 8000,
+			"2": 8000,
+			"3": 12000,
+			"4": 15000,
+			"5": 20000
+		},
+		"impound": {
+			"1": 0,
+			"2": 1,
+			"3": 3,
+			"4": 7,
+			"5": 10
+		},
+		"suspension": {
+			"1": 0,
+			"2": 2,
+			"3": 4,
+			"4": 7,
+			"5": 10
+		},
+		"extra": "For speeds 30+ MPH over limit. Separate offense from Speeding."
+	},
+	"412": {
+		"id": "412",
 		"charge": "Failure to Yield/Stop to a Traffic Control Device",
 		"type": "I",
 		"class": {
@@ -4778,14 +5077,14 @@
 			"C": 0
 		},
 		"fine": {
-			"1": 1000,
-			"2": 2500,
-			"3": 5000
+			"1": 2500,
+			"2": 5000,
+			"3": 7500
 		},
 		"impound": {
 			"1": 0,
 			"2": 0,
-			"3": 0
+			"3": 2
 		},
 		"suspension": {
 			"1": 0,
@@ -4794,9 +5093,9 @@
 		},
 		"extra": "N/A"
 	},
-	"407": {
-		"id": "407",
-		"charge": "Illegal Parking",
+	"413": {
+		"id": "413",
+		"charge": "Failure to Yield at Intersection",
 		"type": "I",
 		"class": {
 			"A": false,
@@ -4810,52 +5109,6 @@
 		},
 		"time": {
 			"days": 0,
-			"hours": 0,
-			"min": 0
-		},
-		"points": {
-			"A": 0,
-			"B": 0,
-			"C": 0
-		},
-		"fine": {
-			"1": 1000,
-			"2": 2500,
-			"3": 5000
-		},
-		"impound": {
-			"1": 0,
-			"2": 0,
-			"3": 0
-		},
-		"suspension": {
-			"1": 0,
-			"2": 0,
-			"3": 3
-		},
-		"extra": "N/A"
-	},
-	"408": {
-		"id": "408",
-		"charge": "Reckless Driving",
-		"type": "M",
-		"class": {
-			"A": false,
-			"B": false,
-			"C": true
-		},
-		"offence": {
-			"1": true,
-			"2": true,
-			"3": true
-		},
-		"time": {
-			"days": 0,
-			"hours": 1,
-			"min": 0
-		},
-		"maxtime": {
-			"days": 1,
 			"hours": 0,
 			"min": 0
 		},
@@ -4867,68 +5120,23 @@
 		"fine": {
 			"1": 2500,
 			"2": 5000,
-			"3": 10000
+			"3": 7500
 		},
 		"impound": {
 			"1": 0,
 			"2": 0,
-			"3": 4
+			"3": 2
 		},
 		"suspension": {
 			"1": 0,
 			"2": 0,
-			"3": 7
+			"3": 3
 		},
-        "bail": {
-            "auto": true,
-            "cost": 100000
-        },
-		"extra": "N/A"
+		"extra": "On-Hold due to sync issues. Every intersection is to be treated as a four-way rolling stop."
 	},
-	"409": {
-		"id": "409",
-		"charge": "Vehicular Noise Violation",
-		"type": "I",
-		"class": {
-			"A": false,
-			"B": false,
-			"C": true
-		},
-		"offence": {
-			"1": true,
-			"2": false,
-			"3": false
-		},
-		"time": {
-			"days": 0,
-			"hours": 0,
-			"min": 0
-		},
-		"points": {
-			"A": 0,
-			"B": 0,
-			"C": 0
-		},
-		"fine": {
-			"1": 1000,
-			"2": 0,
-			"3": 0
-		},
-		"impound": {
-			"1": 1,
-			"2": 0,
-			"3": 0
-		},
-		"suspension": {
-			"1": 0,
-			"2": 0,
-			"3": 0
-		},
-		"extra": "N/A"
-	},
-	"410": {
-		"id": "410",
-		"charge": "Negligent Operation of a Vehicle",
+	"414": {
+		"id": "414",
+		"charge": "Failure to Yield Entering Roadway",
 		"type": "I",
 		"class": {
 			"A": false,
@@ -4967,9 +5175,273 @@
 		},
 		"extra": "N/A"
 	},
-	"411": {
-		"id": "411",
-		"charge": "Illegal Usage of Hydraulics",
+	"415": {
+		"id": "415",
+		"charge": "Failure to Yield for Crosswalk",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": true,
+			"3": true
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 2500,
+			"2": 5000,
+			"3": 7500
+		},
+		"impound": {
+			"1": 0,
+			"2": 0,
+			"3": 2
+		},
+		"suspension": {
+			"1": 0,
+			"2": 0,
+			"3": 3
+		},
+		"extra": "N/A"
+	},
+	"416": {
+		"id": "416",
+		"charge": "Failure to Yield to an Emergency Vehicle",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": true,
+			"3": true
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 2500,
+			"2": 5000,
+			"3": 7500
+		},
+		"impound": {
+			"1": 0,
+			"2": 0,
+			"3": 2
+		},
+		"suspension": {
+			"1": 0,
+			"2": 0,
+			"3": 3
+		},
+		"extra": "N/A"
+	},
+	"417": {
+		"id": "417",
+		"charge": "Improper Lane Entry while Turning",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": true,
+			"3": true
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 2500,
+			"2": 5000,
+			"3": 7500
+		},
+		"impound": {
+			"1": 0,
+			"2": 0,
+			"3": 2
+		},
+		"suspension": {
+			"1": 0,
+			"2": 0,
+			"3": 3
+		},
+		"extra": "N/A"
+	},
+	"418": {
+		"id": "418",
+		"charge": "Prohibited Parking",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": true,
+			"3": true
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 1000,
+			"2": 2500,
+			"3": 5000
+		},
+		"impound": {
+			"1": 0,
+			"2": 0,
+			"3": 0
+		},
+		"suspension": {
+			"1": 0,
+			"2": 0,
+			"3": 0
+		},
+		"extra": "Vehicles obstructing traffic or imposing risk may be impounded for 1 Day."
+	},
+	"419": {
+		"id": "419",
+		"charge": "Reckless Driving",
+		"type": "M",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": false,
+			"3": false
+		},
+		"time": {
+			"days": 0,
+			"hours": 1,
+			"min": 0
+		},
+		"maxtime": {
+			"days": 1,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 5000,
+			"2": 0,
+			"3": 0
+		},
+		"impound": {
+			"1": 3,
+			"2": 0,
+			"3": 0
+		},
+		"suspension": {
+			"1": 3,
+			"2": 0,
+			"3": 0
+		},
+        "bail": {
+            "auto": true,
+            "cost": 100000
+        },
+		"extra": "N/A"
+	},
+	"420": {
+		"id": "420",
+		"charge": "Vehicular Endangerment",
+		"type": "F",
+		"class": {
+			"A": true,
+			"B": true,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": false,
+			"3": false
+		},
+		"time": {
+			"days": 1,
+			"hours": 0,
+			"min": 0
+		},
+		"maxtime": {
+			"days": 5,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 4,
+			"B": 3,
+			"C": 2
+		},
+		"fine": {
+			"1": 10000,
+			"2": 0,
+			"3": 0
+		},
+		"impound": {
+			"1": 0,
+			"2": 0,
+			"3": 0
+		},
+		"suspension": {
+			"1": 0,
+			"2": 0,
+			"3": 0
+		},
+        "bail": {
+            "auto": true,
+            "cost": 500000
+        },
+		"extra": "N/A"
+	},
+	"421": {
+		"id": "421",
+		"charge": "Drive Without Headlights",
 		"type": "I",
 		"class": {
 			"A": false,
@@ -5006,10 +5478,297 @@
 			"2": 0,
 			"3": 0
 		},
+		"extra": "Between 20:30-06:30 or reduced visibility conditions"
+	},
+	"422": {
+		"id": "422",
+		"charge": "Unsafe Reversing",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": true,
+			"3": true
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 2500,
+			"2": 5000,
+			"3": 7500
+		},
+		"impound": {
+			"1": 0,
+			"2": 0,
+			"3": 2
+		},
+		"suspension": {
+			"1": 0,
+			"2": 0,
+			"3": 3
+		},
 		"extra": "N/A"
 	},
-	"412": {
-		"id": "412",
+	"423": {
+		"id": "423",
+		"charge": "Obstructing Traffic",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": true,
+			"3": true
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 2500,
+			"2": 5000,
+			"3": 7500
+		},
+		"impound": {
+			"1": 0,
+			"2": 0,
+			"3": 2
+		},
+		"suspension": {
+			"1": 0,
+			"2": 0,
+			"3": 3
+		},
+		"extra": "N/A"
+	},
+	"424": {
+		"id": "424",
+		"charge": "Driving Against One-way Traffic",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": true,
+			"3": true
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 2500,
+			"2": 5000,
+			"3": 7500
+		},
+		"impound": {
+			"1": 0,
+			"2": 0,
+			"3": 2
+		},
+		"suspension": {
+			"1": 0,
+			"2": 0,
+			"3": 3
+		},
+		"extra": "N/A"
+	},
+	"425": {
+		"id": "425",
+		"charge": "Imprudent Driving",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": true,
+			"3": true
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 2500,
+			"2": 5000,
+			"3": 7500
+		},
+		"impound": {
+			"1": 0,
+			"2": 0,
+			"3": 2
+		},
+		"suspension": {
+			"1": 0,
+			"2": 0,
+			"3": 3
+		},
+		"extra": "N/A"
+	},
+	"426": {
+		"id": "426",
+		"charge": "Use of an Electronic Device while Driving",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": true,
+			"3": true
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 2500,
+			"2": 5000,
+			"3": 7500
+		},
+		"impound": {
+			"1": 0,
+			"2": 0,
+			"3": 0
+		},
+		"suspension": {
+			"1": 0,
+			"2": 0,
+			"3": 0
+		},
+		"extra": "Excludes hands-free devices"
+	},
+	"427": {
+		"id": "427",
+		"charge": "Vehicular Noise Violation",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": true,
+			"3": true
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 2500,
+			"2": 5000,
+			"3": 7500
+		},
+		"impound": {
+			"1": 0,
+			"2": 0,
+			"3": 2
+		},
+		"suspension": {
+			"1": 0,
+			"2": 0,
+			"3": 3
+		},
+		"extra": "N/A"
+	},
+	"428": {
+		"id": "428",
+		"charge": "Illegal Usage of Hydraulics",
+		"type": "I",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": true,
+			"3": true
+		},
+		"time": {
+			"days": 0,
+			"hours": 0,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 2500,
+			"2": 5000,
+			"3": 7500
+		},
+		"impound": {
+			"1": 0,
+			"2": 0,
+			"3": 2
+		},
+		"suspension": {
+			"1": 0,
+			"2": 0,
+			"3": 3
+		},
+		"extra": "N/A"
+	},
+	"429": {
+		"id": "429",
 		"charge": "Tinted Windows",
 		"type": "I",
 		"class": {
@@ -5040,18 +5799,18 @@
 		"impound": {
 			"1": 0,
 			"2": 0,
-			"3": 1
+			"3": 0
 		},
 		"suspension": {
 			"1": 0,
 			"2": 0,
 			"3": 0
 		},
-		"extra": "N/A"
+		"extra": "Tints of Level 1 and 2 are considered illegal unless exempted"
 	},
-	"413": {
-		"id": "413",
-		"charge": "Driving under the Influence of Alcohol or Narcotics",
+	"430": {
+		"id": "430",
+		"charge": "Impaired Driving [DUI]",
 		"type": "M",
 		"class": {
 			"A": false,
@@ -5074,28 +5833,73 @@
 			"C": 0
 		},
 		"fine": {
-			"1": 0,
-			"2": 0,
-			"3": 0
+			"1": 5000,
+			"2": 8000,
+			"3": 12000
 		},
 		"impound": {
 			"1": 3,
 			"2": 7,
-			"3": 7
+			"3": 10
 		},
 		"suspension": {
 			"1": 3,
 			"2": 7,
-			"3": 7
+			"3": 10
 		},
         "bail": {
             "auto": true,
             "cost": 200000
         },
-		"extra": "Check Penal Code for any additional provisions/altered sentencing guidelines"
+		"extra": "Third offense upgraded to Felony [2]"
 	},
-	"414M": {
-		"id": "414M",
+	"431": {
+		"id": "431",
+		"charge": "Refusal to Submit to Testing",
+		"type": "M",
+		"class": {
+			"A": false,
+			"B": false,
+			"C": true
+		},
+		"offence": {
+			"1": true,
+			"2": true,
+			"3": true
+		},
+		"time": {
+			"days": 0,
+			"hours": 3,
+			"min": 0
+		},
+		"points": {
+			"A": 0,
+			"B": 0,
+			"C": 0
+		},
+		"fine": {
+			"1": 5000,
+			"2": 8000,
+			"3": 12000
+		},
+		"impound": {
+			"1": 3,
+			"2": 7,
+			"3": 10
+		},
+		"suspension": {
+			"1": 3,
+			"2": 7,
+			"3": 10
+		},
+        "bail": {
+            "auto": true,
+            "cost": 200000
+        },
+		"extra": "Third offense upgraded to Felony [2]"
+	},
+	"432M": {
+		"id": "432M",
 		"charge": "Motor Vehicle Contest (Misdemeanor)",
 		"type": "M",
 		"class": {
@@ -5144,8 +5948,8 @@
         },
 		"extra": "N/A"
 	},
-	"414F": {
-		"id": "414F",
+	"432F": {
+		"id": "432F",
 		"charge": "Motor Vehicle Contest (Felony)",
 		"type": "F",
 		"class": {
@@ -5171,7 +5975,7 @@
 		"points": {
 			"A": 0,
 			"B": 0,
-			"C": 0
+			"C": 5
 		},
 		"fine": {
 			"1": 15000,
@@ -5192,60 +5996,10 @@
             "auto": false,
             "cost": 0
         },
-		"extra": "Evading charged additionally"
+		"extra": "Evading charged additionally. For fleeing from officers after street race."
 	},
-	"415": {
-		"id": "415",
-		"charge": "Vehicular Endangerment",
-		"type": "F",
-		"class": {
-			"A": false,
-			"B": true,
-			"C": true
-		},
-		"offence": {
-			"1": true,
-			"2": false,
-			"3": false
-		},
-		"time": {
-			"days": 1,
-			"hours": 0,
-			"min": 0
-		},
-		"maxtime": {
-			"days": 5,
-			"hours": 0,
-			"min": 0
-		},
-		"points": {
-			"A": 0,
-			"B": 3,
-			"C": 2
-		},
-		"fine": {
-			"1": 10000,
-			"2": 0,
-			"3": 0
-		},
-		"impound": {
-			"1": 0,
-			"2": 0,
-			"3": 0
-		},
-		"suspension": {
-			"1": 0,
-			"2": 0,
-			"3": 0
-		},
-        "bail": {
-            "auto": true,
-            "cost": 500000
-        },
-		"extra": "N/A"
-	},
-	"416": {
-		"id": "416",
+	"433": {
+		"id": "433",
 		"charge": "Jaywalking",
 		"type": "I",
 		"class": {
@@ -5285,8 +6039,8 @@
 		},
 		"extra": "N/A"
 	},
-	"417": {
-		"id": "417",
+	"434": {
+		"id": "434",
 		"charge": "Possession of Open Container",
 		"type": "I",
 		"class": {
@@ -5326,8 +6080,8 @@
 		},
 		"extra": "N/A"
 	},
-	"418": {
-		"id": "418",
+	"435": {
+		"id": "435",
 		"charge": "Failure to Wear a Seatbelt/Safety Equipment",
 		"type": "I",
 		"class": {
@@ -5351,12 +6105,12 @@
 			"C": 0
 		},
 		"fine": {
-			"1": 2500,
+			"1": 1000,
 			"2": 0,
 			"3": 0
 		},
 		"impound": {
-			"1": 2,
+			"1": 0,
 			"2": 0,
 			"3": 0
 		},
@@ -5367,8 +6121,8 @@
 		},
 		"extra": "N/A"
 	},
-	"419": {
-		"id": "419",
+	"436": {
+		"id": "436",
 		"charge": "Operation of Unsafe Motor Vehicle",
 		"type": "I",
 		"class": {
@@ -5408,49 +6162,8 @@
 		},
 		"extra": "N/A"
 	},
-	"420": {
-		"id": "420",
-		"charge": "Vehicle Registration Violation",
-		"type": "I",
-		"class": {
-			"A": false,
-			"B": false,
-			"C": true
-		},
-		"offence": {
-			"1": true,
-			"2": false,
-			"3": false
-		},
-		"time": {
-			"days": 0,
-			"hours": 0,
-			"min": 0
-		},
-		"points": {
-			"A": 0,
-			"B": 0,
-			"C": 0
-		},
-		"fine": {
-			"1": 5000,
-			"2": 0,
-			"3": 0
-		},
-		"impound": {
-			"1": 3,
-			"2": 0,
-			"3": 0
-		},
-		"suspension": {
-			"1": 3,
-			"2": 0,
-			"3": 0
-		},
-		"extra": "N/A"
-	},
-	"421": {
-		"id": "421",
+	"437": {
+		"id": "437",
 		"charge": "Operating an Aircraft Without A License",
 		"type": "M",
 		"class": {
@@ -5464,8 +6177,8 @@
 			"3": false
 		},
 		"time": {
-			"days": 0,
-			"hours": 2,
+			"days": 2,
+			"hours": 0,
 			"min": 0
 		},
 		"maxtime": {
@@ -5499,8 +6212,8 @@
         },
 		"extra": "N/A"
 	},
-	"422": {
-		"id": "422",
+	"438": {
+		"id": "438",
 		"charge": "Reckless Operation Of An Aircraft",
 		"type": "F",
 		"class": {
@@ -5549,8 +6262,8 @@
         },
 		"extra": "N/A"
 	},
-	"432": {
-		"id": "432",
+	"439": {
+		"id": "439",
 		"charge": "Failure To Adhere To ATC",
 		"type": "F",
 		"class": {
@@ -5597,10 +6310,10 @@
             "auto": true,
             "cost": 800000
         },
-		"extra": "(( Charge is suspended. ))"
+		"extra": "(( Charge is suspended. DO NOT charge this on any person. ))"
 	},
-	"424": {
-		"id": "424",
+	"440": {
+		"id": "440",
 		"charge": "Aerial Evasion",
 		"type": "F",
 		"class": {
@@ -5634,12 +6347,12 @@
 			"3": 0
 		},
 		"impound": {
-			"1": 0,
+			"1": 7,
 			"2": 0,
 			"3": 0
 		},
 		"suspension": {
-			"1": 7,
+			"1": 0,
 			"2": 0,
 			"3": 0
 		},
@@ -5649,8 +6362,8 @@
         },
 		"extra": "N/A"
 	},
-	"425": {
-		"id": "425",
+	"441": {
+		"id": "441",
 		"charge": "Negligent Operation of Bicycle",
 		"type": "I",
 		"class": {
@@ -5690,8 +6403,8 @@
 		},
 		"extra": "N/A"
 	},
-	"426": {
-		"id": "426",
+	"442": {
+		"id": "442",
 		"charge": "Operation of an Unauthorized Vehicle on Vespucci Beach",
 		"type": "I",
 		"class": {
@@ -5731,8 +6444,8 @@
 		},
 		"extra": "N/A"
 	},
-	"427": {
-		"id": "427",
+	"443": {
+		"id": "443",
 		"charge": "Street Takeover",
 		"type": "F",
 		"class": {
@@ -5756,9 +6469,9 @@
 			"min": 0
 		},
 		"points": {
-			"A": 5,
+			"A": 0,
 			"B": 0,
-			"C": 0
+			"C": 5
 		},
 		"fine": {
 			"1": 20000,
@@ -5773,54 +6486,13 @@
 		"suspension": {
 			"1": 7,
 			"2": 0,
-			"3": 3
+			"3": 0
 		},
-	        "bail": {
-	            "auto": true,
-	            "cost": 350000
-	        },
-		"extra": "Evading = 14 day impound + charge seperately"
-	},
-	"428": {
-		"id": "428",
-		"charge": "Excessive Speeding",
-		"type": "I",
-		"class": {
-			"A": false,
-			"B": false,
-			"C": true
-		},
-		"offence": {
-			"1": true,
-			"2": true,
-			"3": true
-		},
-		"time": {
-			"days": 0,
-			"hours": 0,
-			"min": 0
-		},
-		"points": {
-			"A": 0,
-			"B": 0,
-			"C": 0
-		},
-		"fine": {
-			"1": 8000,
-			"2": 8000,
-			"3": 12000
-		},
-		"impound": {
-			"1": 0,
-			"2": 0,
-			"3": 3
-		},
-		"suspension": {
-			"1": 0,
-			"2": 2,
-			"3": 4
-		},
-		"extra": "Check Penal Code for any additional provisions/altered sentencing guidelines"
+        "bail": {
+            "auto": true,
+            "cost": 350000
+        },
+		"extra": "14 day impound for evading, plus Evading a Peace Officer charge added separately"
 	},
 	"501": {
 		"id": "501",

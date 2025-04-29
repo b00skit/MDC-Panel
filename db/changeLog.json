@@ -1,4 +1,11 @@
 {
+	"2.4.17": {
+		"id": "2.4.17",
+		"date": "29/MAR/2025",
+		"changes": {
+			"0": "Penal Code - Implemented changes adopted by S.B. 171."
+		}
+	},
 	"2.4.16": {
 		"id": "2.4.16",
 		"date": "01/OCT/2024",

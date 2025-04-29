@@ -56,7 +56,7 @@
 
     const SITE_LIVE = true;
     const SITE_NAME = 'MDC Panel';
-    const SITE_VERSION = '2.4.16';
+    const SITE_VERSION = '2.4.17';
     const SITE_LOGO = '/images/MDC-Panel.svg';
     const SITE_FAVICON = '/images/MDC-Panel-Favicon.svg';
     const SITE_IMAGE = '/images/MDC-Panel-OG.png';
