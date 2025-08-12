@@ -100,8 +100,8 @@
     |
     */
 
-    const SPECIAL_NOTIFICATION_COOKIE = 'rebb1';
-    const SPECIAL_NOTIFICATION_MESSAGE = 'I\'ve recently released <a class="mx-1" href="https://rebb.booskit.dev/"><span class="badge badge-dark">reBB</span></a> which allows you to make & share your own bbcode/html forms without ANY coding.';
+    const SPECIAL_NOTIFICATION_COOKIE = 'mdc-panel-plus-beta';
+	const SPECIAL_NOTIFICATION_MESSAGE = 'The new and revised MDC PANEL PLUS is now in beta! Check it out via <a href="https://beta.panel.booskit.dev/">https://beta.panel.booskit.dev/</a>.';
 
     /*
     |--------------------------------------------------------------------------
