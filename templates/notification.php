@@ -1,5 +1,4 @@
 <?php
-<?php
 if ($g->getSettings('special-notification') && ($g->findCookie('specialNotification') != $g->getSettings('special-notification'))) {
 ?>
 <div id="notification">
