@@ -100,8 +100,8 @@
     |
     */
 
-    const SPECIAL_NOTIFICATION_COOKIE = 'mdc-panel-plus-beta';
-	const SPECIAL_NOTIFICATION_MESSAGE = 'The new and revised MDC PANEL PLUS is now in beta! Check it out via <a href="https://beta.panel.booskit.dev/">https://beta.panel.booskit.dev/</a>.';
+    const SPECIAL_NOTIFICATION_COOKIE = 'end-of-life';
+	const SPECIAL_NOTIFICATION_MESSAGE = 'The MDC Panel will be updated on the <b>1st of September 2025</b>. We will be releasing the new MDC Panel+ on this domain, this old version of the MDC will be moved to a seperate domain and will no-longer be supported. This does not mean much for you, but once you visit the domain you will see a new sleek and cool website!';
 
     /*
     |--------------------------------------------------------------------------
